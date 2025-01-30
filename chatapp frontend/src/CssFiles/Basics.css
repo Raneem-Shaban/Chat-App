@@ -1,0 +1,43 @@
+.basicsContainer{
+    width: 425px;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:0 10px 0 10px ;
+    
+}
+.profileTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.basicsButton{
+    width: 100%;
+    height: 37%;
+    box-shadow: 3px 4px 6px rgba(130, 130, 130, 0.1);
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.basicsText{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 22px;
+    font-weight: 400;
+}
+.basicsButtonImg {
+    width: 20px;
+    height: 20px;
+}
+.basicsButtonArrow{
+    width: 16px;
+    height: 16px;
+    margin-right: 2%;
+}

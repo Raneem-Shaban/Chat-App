@@ -1,0 +1,36 @@
+.settingsContainer{
+    width: 425px;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:0 10px 0 10px ;
+}
+.settingsButtonsCon{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.settingsButton{
+    width: 49%;
+    height: 30%;
+    box-shadow: 3px 4px 6px rgba(130, 130, 130, 0.1);
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.delete{
+    color: #FF3B30;
+    padding-left:3%;
+}
+.settingsText{
+    padding-left:3%;
+}

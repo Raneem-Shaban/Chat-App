@@ -1,0 +1,21 @@
+.ChatLayout_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+
+  .message-list {
+    height: 75%;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+.SendMsg_container{
+    position: relative;
+    width: 100%;
+    height: 12%;
+    background-color: #FAFAFA;
+}

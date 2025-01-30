@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+
+.leftSide{
+    /* background-color: grey; */
+    width: 30vw;
+    height: 100vh;
+}
+
+.rightSide{
+    background-color: white;
+    width: 70vw;
+    height: 100vh;
+}

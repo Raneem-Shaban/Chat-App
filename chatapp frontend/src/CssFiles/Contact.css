@@ -1,0 +1,85 @@
+.contact-box {
+    width: 100%;
+    min-height: 17%;
+    max-height: 300px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contactImg {
+    width: 60px;
+    position: relative;
+}
+
+.img-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.status {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid white;
+}
+
+.status.online {
+    background-color: #34C759;
+}
+
+.status.offline {
+    background-color: #C7C7CC;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 509;
+}
+
+.msg {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e93;
+}
+
+.contact-box:hover {
+    background-color: #e9f6f5;
+}
+
+.contact-box:active {
+    background-color: #e9f6f5;
+}
+
+.contact-box:focus {
+    background-color: #e9f6f5;
+    outline: none;
+}
+
+.contact-box:focus-within {
+    background-color: #e9f6f5;
+    outline: none;
+}
+
+.unread-circle {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.contactMsgInfo {
+    width: 80%;
+}
+
+.contactMsgInfo.unread {
+    width: 70%;
+}

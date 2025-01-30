@@ -1,0 +1,31 @@
+.pinned-message-container {
+    border: 1px solid #E5E5EA;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.pinned-message-header {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #8E8E93;
+    font-weight: 400;
+}
+
+.pinned-by {
+    color: #3CC2B1;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.pinned-message-content {
+    margin-left: 10px;
+}
+
+.star-icon{
+    width: 32px;
+    height: 32px;
+    color: #8E8E93;
+    margin-left: 40px;
+}

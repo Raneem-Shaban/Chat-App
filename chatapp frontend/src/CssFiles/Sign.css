@@ -1,0 +1,24 @@
+.wi-42{
+    width: 30vw;
+}
+.backgroundsign{
+    background-image:url('./../../public/backgroundSignin.png') ;
+    background-size:cover;
+}
+.wi-75{
+    max-width: 75vw;
+}
+.heig{
+    height: 50vh;
+}
+.positon-rel{
+    position:relative;
+}
+.positon-abs{
+    position:absolute;
+}
+@media (max-width: 768px) {
+    .marginTB{
+        margin: 40px 0px 40px 0px;;
+    }
+}

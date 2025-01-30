@@ -1,0 +1,139 @@
+
+.message {
+    position: relative;
+    padding: 1% 1.3%;
+    border-radius: 20px;
+    margin: 1%;
+    width: max-content;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.message.sender {
+    background-color: #3CC2B1;
+    align-self: flex-end;
+    margin-left: auto;
+    color: white;
+    border-radius: 20px 20px 0px 20px;
+}
+
+.message.receiver {
+    background-color: #F2F2F7;
+    align-self: flex-start;
+    margin-right: auto;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.message-time.sender {
+    color: white;
+}
+
+.message-content {
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.message-info {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75em;
+    color: gray;
+}
+
+.message-time {
+    margin-right: 1px;
+}
+
+.message-status {
+    flex: none;
+    color: white;
+}
+
+.message-status-time {
+    display: flex;
+    align-items: center;
+}
+
+.dots {
+    font-size: 33px;
+    /* Adjust this size as needed */
+    cursor: pointer;
+    color: #AEAEB2;
+}
+
+.dots-sender {
+    position: absolute;
+    left: -25px;
+    /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dots-receiver {
+    position: absolute;
+    right: -25px;
+    /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu {
+    width: 15vw;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    color: black;
+}
+
+.menu-sender {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+}
+
+.menu-receiver {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+}
+
+.reactions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+}
+
+.reactions span {
+    cursor: pointer;
+    
+}
+
+.options {
+    border-top: 1px solid #ccc;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.options div {
+    padding: 5px 0;
+    cursor: pointer;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.options div:hover {
+    background-color: #f0f0f0;
+}
+
+.icon{
+    padding-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+.check-icon svg{
+    width: 16px;
+    height: 16px;
+}
+
